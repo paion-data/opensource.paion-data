@@ -30,40 +30,40 @@ zh:
         title: "参与 Paion 开源"
         description: '或者直接参与我们下面的项目'
   business:
-    title: "你的业务基于开源软件"
-    description: "每周一次，周周坚持。投资些时间给在用和喜欢的开源软件。"
+    title: "Paion 热爱开源"
+    description: "我们每天都在思考和努力实践，让我们的开源软件做得更好"
     reason:
-      title: "你的业务依赖于它"
-      description: "公司需要开源软件以便高效运作。"
+      title: "Paion 的商业模式基于开源"
+      description: "开源是 Paion 的基石"
       technology:
-        title: "改善你依赖的技术"
-        description: "直接参与开源，在你所依赖的软件中，会给你的组织带来话语权。"
+        title: "开源贯穿底层，完全掌握自主"
+        description: "直接参与自身和其它开源社区的搭建让我们不仅对自己的软件有自主权，还能高效地在其它开源技术上快速实现定制化"
     models:
       title: "更好地协作"
-      description: "开源开发模式是前沿的软件协作。从事开源工作的开发者，直观地从你的组织中学习，从而改进编码质量，编码速度，和易读型。"
+      description: "开源文化是团队软件开发的最好实践。我们的团队在实践开源的同时，会自然而然地提高开发质量和速度，让团队合作变得更加透明"
     cost:
-      title: "减少日常成本"
-      description: "减少那些需要你维护的定制软件，经常给开源项目做出贡献，来节约费用和开发者的时间。"
+      title: "减少开发成本"
+      description: "开源我们的代码能让世界上其它开发同学帮助我们节省开发的时间和人力成本，同时还能解决大家共同的软件需求"
     reputation:
       title: "吸引和留住人才"
-      description: "从事开源工作的员工，给他们自己和雇主带来声誉。"
+      description: "我们的同学在这里因开源而成长，因分享而快乐"
     plan:
-      title: "在你的组织中推动开源星期五"
-      description: "改善你们的开发者文化，刻不容缓。"
+      title: "Paion 的开源文化"
+      description: "开发团队的文化氛围是一切保障的前提"
       encourage:
-        title: "腾点时间"
-        description: "每个星期五，鼓励你的经理、员工和合作者给你的组织在用的开源项目花上至少两小时。"
+        title: "开源工作成为我们工作的一部分"
+        description: "我们会为我们的员工专门安排时间来开发我们的和其它组织的开源软件"
       policy:
-        title: "保持习惯"
-        description: "创建明确的内部政策，让员工始终可以轻易的为开源贡献。"
+        title: "企业的政策鼓励"
+        description: "我们的团队章程鼓励开源工作，让员工更加轻松地参与到开源社区当中去"
   maintainers:
-    title: "与他人协助构建软件"
-    description: "每个星期五，给你的软件项目一些爱，让别人更容易地给它贡献。"
+    title: "我们的软件以质量为第一位"
+    description: "我们努力让我们的开源工作做到完美，让每一位参与到我们社区当中来的同学都能有所收获"
     involve:
-      title: "帮助人们发现你的项目"
-      description: "创建了项目仅仅是个开始。为什么不把它推向世界？"
+      title: "软件的核心是质量"
+      description: "'开源'正是为其保驾护航的关键"
       workload:
-        title: "减少你的工作量"
+        title: "软件标准是我们的重中之重"
         description: '确保你的 README 文件写了你的项目作用，它的范围和贡献需求，以及如何<a href="https://opensource.guide/best-practices/#leverage-your-community">借助社区</a>。'
       promote:
         title: "推广你的作品"
