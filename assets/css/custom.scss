@@ -121,3 +121,35 @@ img.pquote-avatar {
 .form-select {
   -webkit-appearance: none;
 }
+
+.badge-basic {
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.badge-react {
+  @extend .badge-basic;
+  background-color: #61DAFB;
+}
+
+.badge-knowledge-graph {
+  @extend .badge-basic;
+  background-color: #5C01CB;
+}
+
+.badge-data {
+  @extend .badge-basic;
+  background-color: #F7879A;
+}
+
+.badge-java {
+  @extend .badge-basic;
+  background-color: #CF4B1B;
+}
+
+.badge-druid {
+  @extend .badge-basic;
+  background-color: #29E9F2;
+}
