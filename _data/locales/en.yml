@@ -30,14 +30,14 @@ en:
         title: "Join Paion community"
         description: 'Or start working on one of our Open Source projects below.'
   business:
-    title: "Your business runs on open source software"
+    title: "Our business runs on open source software"
     description: "Everyday we put efforts to make our open source software better"
     reason:
       title: "Our business depends on it"
       description: "Paion Data uses open source software to run effectively."
       technology:
-        title: "Improve the technology you rely on"
-        description: "Direct participation in open source gives our organization a voice in the software you depend on."
+        title: "Improve the technology we rely on"
+        description: "Direct participation in open source gives our organization a voice in the software we depend on."
     models:
       title: "Work better together"
       description: "Open source development models are at the forefront of software collaboration. Our developers who work on open source learn intuitively to improve quality, speed, and transparency at our team."
@@ -58,16 +58,16 @@ en:
         description: "We create clear, internal policies so employees can easily and consistently contribute to open source."
   maintainers:
     title: "We build the best-quality Open Source Software"
-    description: "Every Friday, we think about perfecting our software in every aspects so that contributors can learn from working on our projects."
+    description: "Everyday, we think about perfecting our software in every aspects so that contributors can learn from working on our projects."
     involve:
-      title: "IT as an end in herself is Quality. Open Source is the force to spread the notion and accomplish it"
-      description: "Creating a project is only the beginning. Spread the word and make it perfect is our goal"
+      title: "IT as an end in herself is Quality"
+      description: "Open Source is the force to spread the notion and accomplish it"
       workload:
         title: "Binding to Standards is our Core"
         description: 'It is our religion that only standards lead to scales. A common-ground environment keeps everyone on the same track.'
       promote:
         title: "Promote our work"
-        description: 'We take advantages of social media, blog posts and website to <a href="https://paion-data.github.io/opensource.guide/finding-users/#help-people-find-and-follow-your-project">help people find and follow our project</a>.'
+        description: 'We take advantages of social media, blog posts, and website to <a href="https://paion-data.github.io/opensource.guide/finding-users/#help-people-find-and-follow-your-project">help people find and follow our project</a>.'
     growing:
       title: "We believe software is not about technology, it's about people"
       description: "Everybody was new once. Ease someone else's first-time contribution jitters."
