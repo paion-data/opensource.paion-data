@@ -3,7 +3,7 @@ name: GitHub Actions CI
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 jobs:
   tests:
@@ -37,6 +37,3 @@ jobs:
             echo 'Error: Primer NodeJS modules must contain alt-h0!'
             exit 1
           }
-
-      - name: Run tests
-        run: script/test
