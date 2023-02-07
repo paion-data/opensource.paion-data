@@ -5,7 +5,7 @@
 {% endif %}
 
 <nav class="text-center">
-  <a href="{{ lang_dir }}/#participate">
+  <a href="{{ site.baseurl }}/{{ lang_dir }}/#participate">
     {{ t.Contributors }}
   </a>
 
@@ -14,7 +14,7 @@
     {{ t.Businesses }}
   </span>
   {% else %}
-  <a class="ml-4" href="{{ lang_dir }}/businesses">
+  <a class="ml-4" href="{{ site.baseurl }}/{{ lang_dir }}/businesses">
     {{ t.Businesses }}
   </a>
   {% endif %}
@@ -24,7 +24,7 @@
     {{ t.Maintainers }}
   </span>
   {% else %}
-  <a class="ml-4" href="{{ lang_dir }}/maintainers">
+  <a class="ml-4" href="{{ site.baseurl }}/{{ lang_dir }}/maintainers">
     {{ t.Maintainers }}
   </a>
   {% endif %}

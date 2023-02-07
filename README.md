@@ -1,16 +1,22 @@
-# Open Source Friday
+Paion Open Source Website
+=========================
 
-Open source is made by people just like you. This Friday, invest a few hours contributing to the software you use and love.
+Open source is made by people just like you. Please invest a few hours contributing to the software you are interested
+in.
 
 ## What this is
 
-This repository is the source code for <https://opensourcefriday.com>.
+This repository is the source code for <https://paion-data.github.io/opensource.paion-data/>.
 
-Open Source Friday is a movement to encourage people, companies, and maintainers to contribute a few hours to open source software every Friday.
+Paion Open Source is a movement to encourage both internal and external people, and maintainers to contribute to open
+source software in a world of welcoming openness.
 
-Open Source Software (OSS) is the backbone of most software, tools, apps, electronics and more that we use every day. Not only is Open Source Friday about encouraging people to contribute, but it's about encouraging businesses to give back to the software they use by setting aside time for our colleagues to work on OSS on the clock.
+Open Source Software (OSS) is the backbone of most software, tools, apps, electronics and more that we use every day.
+Not only is Open Source Friday about encouraging people to contribute, but it's about encouraging businesses to give
+back to the software they use by setting aside time for our colleagues to work on OSS on the clock.
 
-On the website you'll find a number of guides on getting started with open source and being a good maintainer.
+On the website you'll find a number of guides on getting started with open source in general and more specific
+information about contributing to Paion Data .
 
 ## Translation
 
@@ -18,8 +24,8 @@ See [CONTRIBUTING.md#Translation](CONTRIBUTING.md#Translation).
 
 ## Development
 
-Source hosted at [GitHub](https://github.com/github/opensourcefriday).
-Report issues/feature requests on [GitHub Issues](https://github.com/github/opensourcefriday/issues).
+Source hosted at [GitHub](https://github.com/paion-data/opensource.paion-data).
+Report issues/feature requests on [GitHub Issues](https://github.com/paion-data/opensource.paion-data/issues).
 
 ### Getting Started
 
@@ -49,8 +55,10 @@ Now point your browser to <http://localhost:4000> to view the site.
 
 ### Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in
+this project you agree to abide by its terms.
 
 ## Copyright
 
-Copyright (c) Open Source Friday contributors. See [LICENSE](https://github.com/github/opensourcefriday/blob/HEAD/LICENSE.txt) for details.
+Copyright (c) Open Source Friday contributors. See
+[LICENSE](https://github.com/github/opensourcefriday/blob/HEAD/LICENSE.txt) for details.
