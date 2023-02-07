@@ -52,7 +52,7 @@ en:
       description: "Improving our developer culture is too important to be left unplanned."
       encourage:
         title: "Set aside time"
-        description: "We give incentives to our employees in order to encourage them to spend at least couple of hours working on other open source projects our organization already uses."
+        description: "We give incentives to our employees in order to encourage them to work on other open source projects our organization already uses as much as possible."
       policy:
         title: "Make it a habit"
         description: "We create clear, internal policies so employees can easily and consistently contribute to open source."
