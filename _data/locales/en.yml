@@ -1,7 +1,7 @@
 en:
   locale_name: English
-  OpenSourceFriday: "Open Source Friday"
-  full_description: "Open source is made by people just like you. This Friday, invest a few hours contributing to the software you use and love."
+  OpenSourceFriday: "Paion Open Source"
+  full_description: "Open source is made by people just like you. Today, invest a few hours contributing to the software you are interested in."
   Contributors: "Contributors"
   Businesses: "Businesses"
   Maintainers: "Maintainers"
@@ -12,9 +12,9 @@ en:
     contributors: "Learn what it means to contribute, and how to find and get started on a new project."
   index:
     main:
-      title: "Contribute on Open Source Friday"
+      title: "Contribute on Paion Open Source"
       contribution: "Learn to contribute"
-      read_the_guide: '<a href="https://opensource.guide/how-to-contribute/">Read the guide</a>'
+      read_the_guide: '<a href="https://paion-data.github.io/opensource.guide/how-to-contribute/">Read the guide</a>'
     find:
       title: "Find a project to contribute to"
       description: "Contributing to open source happens at all levels, across projects and design, documentation, operations and code. You don't need to overthink what exactly your first contribution will be, or how it will look"
@@ -28,7 +28,7 @@ en:
         triage: "CodeTriage"
       welcome:
         title: "A warm welcome"
-        description: 'Find a project that has a history and reputation for being welcoming to new contributors in <a href="https://github.com/showcases/great-for-new-contributors">GitHub&apos;s great for new contributors</a> showcase.'
+        description: 'Find a project that has a history and reputation for being welcoming to new contributors in <a href="https://github.com/showcases/great-for-new-contributors">GitHub&apos;s great for new contributors</a> showcase. Or one of our Paion Open Source projects below.'
   business:
     title: "Your business runs on open source software"
     description: "Once a week, every week. Take time to invest in the open source software you use and love."
@@ -89,6 +89,14 @@ en:
     visitor:
       title: "Get ready for Open Source Friday"
       description: "Spend time now to save time later."
+  paion_open_source_projects:
+    title: "Paion's Open Source Projects"
+    Messier_61:
+      project_name: "Messier 61"
+      project_description: "Knowledge Graph Based Wiki Framework"
+    fili:
+      project_name: "Fili"
+      project_description: "Easily make RESTful web services for time series ingesting & reporting with Big Data analytics engine Druid"
   endorsement:
     title: "You're in good company"
     Kim_Crayton:
