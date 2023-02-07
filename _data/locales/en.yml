@@ -27,8 +27,8 @@ en:
         grabs: "Up For Grabs"
         triage: "CodeTriage"
       welcome:
-        title: "A warm welcome"
-        description: 'Find a project that has a history and reputation for being welcoming to new contributors in <a href="https://github.com/showcases/great-for-new-contributors">GitHub&apos;s great for new contributors</a> showcase. Or one of our Paion Open Source projects below.'
+        title: "Join Paion community"
+        description: 'Or start working on one of our Open Source projects below.'
   business:
     title: "Your business runs on open source software"
     description: "Once a week, every week. Take time to invest in the open source software you use and love."
