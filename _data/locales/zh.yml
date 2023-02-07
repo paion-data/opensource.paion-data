@@ -1,10 +1,10 @@
 zh:
   locale_name: 简体中文
-  OpenSourceFriday: "开源星期五"
-  full_description: "众人拾柴火焰高。这个星期五，为你在用的、喜欢的项目做出贡献。"
-  Contributors: "贡献者"
-  Businesses: "业务"
-  Maintainers: "维护者"
+  OpenSourceFriday: "Paion 开源"
+  full_description: "一起来为这个越来越开放，透明，自由的世界添砖加瓦吧"
+  Contributors: "开发者"
+  Businesses: "企业"
+  Maintainers: "开源"
   YouTube: "YouTube"
   headline:
     businesses: "你的业务基于开源。了解如何参与。"
@@ -12,9 +12,9 @@ zh:
     contributors: "了解贡献的意义，以及如何探索和开始贡献新项目。"
   index:
     main:
-      title: "在开源星期五做出贡献"
-      contribution: "学习如何贡献"
-      read_the_guide: '<a href="https://opensource.guide/how-to-contribute/">阅读指南</a>'
+      title: "和我们一起参与开源社区"
+      contribution: "学习如何加入开源"
+      read_the_guide: '<a href="https://paion-data.github.io/opensource.guide/how-to-contribute/">阅读指南</a>'
     find:
       title: "发现一个要贡献的项目"
       description: "贡献到项目的各个层面，包括项目、设计、文档、运作和代码。不必反复斟酌你的首次贡献。"
@@ -28,7 +28,7 @@ zh:
         triage: "CodeTriage"
       welcome:
         title: "热烈欢迎"
-        description: '在 <a href="https://github.com/showcases/great-for-new-contributors">GitHub 上适合新贡献者的项目</a>案例库中找一个欢迎新贡献者的有一定历史和声誉的项目。'
+        description: '在 <a href="https://github.com/showcases/great-for-new-contributors">GitHub 上适合新贡献者的项目</a>案例库中找一个欢迎新贡献者的有一定历史和声誉的项目。或者直接参与我们的项目：'
   business:
     title: "你的业务基于开源软件"
     description: "每周一次，周周坚持。投资些时间给在用和喜欢的开源软件。"
@@ -89,8 +89,16 @@ zh:
     visitor:
       title: "准备好开源星期五"
       description: "磨刀不误砍柴工。"
+  paion_open_source_projects:
+    title: "Paion 开源项目"
+    Messier_61:
+      project_name: "Messier 61"
+      project_description: "知识图谱 Wiki 前端框架"
+    fili:
+      project_name: "Fili"
+      project_description: "基于 Apache Druid 的流式大数据 REST & GraphQL 存储与访问服务框架"
   endorsement:
-    title: "身处好公司"
+    title: "开源已经成为世界主流"
     Kim_Crayton:
       title: "社区工程师、作家、创始人"
       name: "Kim Crayton"
