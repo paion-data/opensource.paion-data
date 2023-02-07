@@ -1,34 +1,34 @@
 zh:
   locale_name: 简体中文
-  OpenSourceFriday: "开源星期五"
-  full_description: "众人拾柴火焰高。这个星期五，为你在用的、喜欢的项目做出贡献。"
-  Contributors: "贡献者"
-  Businesses: "业务"
-  Maintainers: "维护者"
+  OpenSourceFriday: "Paion 开源"
+  full_description: "一起来为这个越来越开放，透明，自由的世界添砖加瓦吧"
+  Contributors: "开发者"
+  Businesses: "企业"
+  Maintainers: "开源团队"
   YouTube: "YouTube"
   headline:
-    businesses: "你的业务基于开源。了解如何参与。"
-    maintainers: "给予你的项目多些关爱，好让他人做出你急需的贡献。"
-    contributors: "了解贡献的意义，以及如何探索和开始贡献新项目。"
+    businesses: "做为企业，如何参与开源"
+    maintainers: "开源团队如何发展自己的社区"
+    contributors: "了解什么是开源，探索并加入开源大家庭"
   index:
     main:
-      title: "在开源星期五做出贡献"
-      contribution: "学习如何贡献"
-      read_the_guide: '<a href="https://opensource.guide/how-to-contribute/">阅读指南</a>'
+      title: "和我们一起加入开源社区"
+      contribution: "学习如何加入开源"
+      read_the_guide: '<a href="https://paion-data.github.io/opensource.guide/how-to-contribute/">阅读指南</a>'
     find:
-      title: "发现一个要贡献的项目"
-      description: "贡献到项目的各个层面，包括项目、设计、文档、运作和代码。不必反复斟酌你的首次贡献。"
+      title: "找到自己感兴趣的开源项目"
+      description: "Paion 相信开源是属于所有人的，各行各业的人都能在开源项目中找到贡献的机会。Paion 的社区文化是包容，我们非常愿意和你一起共同学习成长"
       used:
-        title: "一个你在用的项目"
-        description: "从一个你在用或想用的项目着手。你会持续贡献的项目，是那些你发现自己会不断翻出来看的。"
+        title: "如果你已经在使用开源软件"
+        description: "可以从一个你在用或想用的软件项目入手。亲手改造自己喜欢的软件是非常有趣的"
       issue:
-        title: "一个你能解决的问题"
-        description: "从下列网站中找一个等着你出手相助的项目："
+        title: "如果你是一个喜欢解决各种问题的同学"
+        description: "可以访问从下网站中的开源项目尽情发挥"
         grabs: "Up For Grabs"
         triage: "CodeTriage"
       welcome:
-        title: "热烈欢迎"
-        description: '在 <a href="https://github.com/showcases/great-for-new-contributors">GitHub 上适合新贡献者的项目</a>案例库中找一个欢迎新贡献者的有一定历史和声誉的项目。'
+        title: "参与 Paion 开源"
+        description: '或者直接参与我们下面的项目'
   business:
     title: "你的业务基于开源软件"
     description: "每周一次，周周坚持。投资些时间给在用和喜欢的开源软件。"
@@ -89,36 +89,44 @@ zh:
     visitor:
       title: "准备好开源星期五"
       description: "磨刀不误砍柴工。"
+  paion_open_source_projects:
+    title: "Paion 开源项目"
+    Messier_61:
+      project_name: "Messier 61"
+      project_description: "知识图谱 Wiki 前端框架"
+    fili:
+      project_name: "Fili"
+      project_description: "基于 Apache Druid 的流式大数据 REST & GraphQL 存储与访问服务框架"
   endorsement:
-    title: "身处好公司"
+    title: "开源已经成为世界主流"
     Kim_Crayton:
-      title: "社区工程师、作家、创始人"
+      title: "Community Engineer, Writer, Founder"
       name: "Kim Crayton"
-      message: "给开源做贡献不仅允许各种规模的商业机构，在他人智慧的基础上获益，对那些刚开始接触编程，通过实际操作、试验来适应开发过程，证明自己是对社区有价值的贡献者的人来说，也是康庄大道。"
+      message: "Contributing to open source not only allows businesses of every size to take advantage and build upon the talents of others, it's also an avenue for those new to coding to acclimate themselves to the development process in ways that allow them to practice, experiment, and showcase themselves as valuable and contributing members of the community."
     Chris_Lamb:
-      title: "<a href='https://www.debian.org'>Debian Project</a> 项目负责人"
+      title: "<a href='https://www.debian.org'>Debian Project</a> Leader"
       name: "Chris Lamb"
-      message: "今天通过为开源项目做贡献，让我提高了软件开发者技能，也让我认识了多元文化中有意思的新朋友，拓宽了行业朋友圈。我强烈推荐它。"
+      message: "I got to where I am today by contributing to open source software, allowing me to not only improve my skills as a software developer but also to increase my network of colleagues and to meet new and interesting friends from extremely diverse cultures. I can highly recommend it."
     Will_Norris:
-      title: "在 <a href='https://github.com/google'>Google</a> 做开源"
+      title: "Open Source at <a href='https://github.com/google'>Google</a>"
       name: "Will Norris"
-      message: '贡献开源项目将继续成为 Google 最流行的 20% 的项目的工程师的选择。 开源在我们的所做的许多事情中扮演着如此重要的角色，所以我们尝试让<a href="https://opensource.google.com/docs/patching/">处理过程</a>尽可能的轻松。'
+      message: 'Contributing to open source projects continues to be one of the most popular 20% projects for Google engineers. Open source plays such an important role in so much of what we do, so we try to make <a href="https://opensource.google.com/docs/patching/"> the process</a> as easy as possible.'
     Christine_Abernathy:
-      title: "在 <a href='https://github.com/facebook/'>Facebook</a> 做开源"
+      title: "Open Source at <a href='https://github.com/facebook/'>Facebook</a>"
       name: "Christine Abernathy"
-      message: "开源赋予了我们让世界更加开放和连接的使命。在社区中工作就有机会去分享自己的作品和面对的挑战, 鼓励智慧的人们去贡献他们的思想和努力推动世界进步。"
+      message: "Open source aligns with our mission to make the world more open and connected. Working with the community gives us an opportunity to share our work and the challenges we're aiming to solve, and encourages talented people to contribute their ideas and effort to move the world forward."
     Rich_Harris:
-      title: "<a href='https://github.com/rollup/rollup'>Rollup</a> 和 <a href='https://github.com/sveltejs/svelte'>Svelte</a> 的维护者"
+      title: "<a href='https://github.com/rollup/rollup'>Rollup</a> and <a href='https://github.com/sveltejs/svelte'>Svelte</a> maintainer"
       name: "Rich Harris"
-      message: "许多开源项目缺乏的不是资金，而是时间。许多维护者都有全职工作，这些时间不可能缩减。通常所有项目需要的是更多的贡献者。开源星期五对依赖并支持开源生态的公司来说，是一个完美的途径。"
+      message: "The thing that most open source projects lack is not money, but time. Many maintainers have full-time jobs and can't realistically cut back their hours. What almost all projects need is more contributors. Open Source Friday is a perfect way for companies to support the open source ecosystem they depend on in a meaningful way."
     Brett_Cannon:
-      title: "<a href='https://github.com/python/cpython'>Python core</a> 开发者"
+      title: "<a href='https://github.com/python/cpython'>Python core</a> developer"
       name: "Brett Cannon"
-      message: "一旦你成为一个其他人都在依赖的项目的维护者，开源就从“共享代码”变为“共享维护”。众所周知，最有效用的一段连续时间进行“维护”，以帮助在当你遗忘当时情景前进行代码审查。"
+      message: 'Once you are a maintainer on a project that others rely on, open source goes from "sharing the code" to "sharing the maintenance". As we all know, "maintenance" takes time which is most effectively spent in a continuous block to help make sure you can finish that e.g. code review before you start to lose context.'
   mailchimp:
-    title: "保持联系"
-    description: "获取 GitHub 最新开源提示和资源, 成为第一个吃螃蟹的人。"
-  with: "和"
-  by: "源自"
-  and: "和 "
-  friends: "小伙伴们"
+    title: "关注开源"
+    description: "世界开源社区 GitHub 最新信息一手掌握"
+  with: "with"
+  by: "by"
+  and: "and "
+  friends: "friends"
