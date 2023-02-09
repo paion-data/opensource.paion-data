@@ -153,3 +153,8 @@ img.pquote-avatar {
   @extend .badge-basic;
   background-color: #29E9F2;
 }
+
+.badge-graphql {
+  @extend .badge-basic;
+  background-color: #EB0195;
+}
