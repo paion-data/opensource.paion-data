@@ -63,7 +63,7 @@ zh:
       title: "软件的核心是质量"
       description: "'开源'正是为其保驾护航的关键"
       workload:
-        title: '<a href="https://paion-data.github.io/styleguide/">JavaScript 代码风格标准</a>'
+        title: '<a href="https://google.github.io/styleguide/javaguide.html">JavaScript 代码风格标准</a>'
         description: '我们沿用 Google 标准的来编写我们的前端'
       promote:
         title: "推广你的作品"
