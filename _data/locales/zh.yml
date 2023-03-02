@@ -63,8 +63,8 @@ zh:
       title: "软件的核心是质量"
       description: "'开源'正是为其保驾护航的关键"
       workload:
-        title: "软件标准是我们的重中之重"
-        description: '确保你的 README 文件写了你的项目作用，它的范围和贡献需求，以及如何<a href="https://opensource.guide/best-practices/#leverage-your-community">借助社区</a>。'
+        title: "JavaScript 代码风格标准"
+        description: '我们沿用 Google 的来编写我们的前端'
       promote:
         title: "推广你的作品"
         description: '考虑创建一个 Twitter 帐号、博客博文及网站, 以<a href="https://opensource.guide/finding-users/#help-people-find-and-follow-your-project">帮助人们找到和关注你的项目</a>。'
