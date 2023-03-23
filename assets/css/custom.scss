@@ -158,3 +158,13 @@ img.pquote-avatar {
   @extend .badge-basic;
   background-color: #EB0195;
 }
+
+.badge-innovation {
+  @extend .badge-basic;
+  background-color: #00CC00;
+}
+
+.badge-neo4j {
+  @extend .badge-basic;
+  background-color: #028BFF;
+}

@@ -100,6 +100,9 @@ zh:
     graphql-java-page:
       project_name: GraphQL Java 中文文档
       project_description: "学习如何将最新的 GraphQL API 技术融入到 Java 后端开发中"
+    knowledge-graph-science:
+      project_name: 知识图谱科学
+      project_description: "知识图谱技术创新沙盒项目"
   endorsement:
     title: "开源已经成为世界主流"
     Kim_Crayton:
