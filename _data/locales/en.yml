@@ -100,6 +100,9 @@ en:
     graphql-java-page:
       project_name: GraphQL Java Documentation
       project_description: "Learn how to integrate GraphQL into Java Development"
+    knowledge-graph-science:
+      project_name: Knowledge Graph Science
+      project_description: "A sandbox for Knowledge Graph Initiatives"
   endorsement:
     title: "You're in good company"
     Kim_Crayton:
