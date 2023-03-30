@@ -104,7 +104,7 @@ en:
       project_name: Knowledge Graph Science
       project_description: "A sandbox for Knowledge Graph Initiatives"
     java_config_library_owner:
-      project_name: Owner
+      project_name: "Aeonbits Owner"
       project_description: "A Java Configuration Library"
   endorsement:
     title: "You're in good company"
