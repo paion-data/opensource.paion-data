@@ -103,6 +103,9 @@ zh:
     knowledge-graph-science:
       project_name: 知识图谱科学
       project_description: "知识图谱技术创新沙盒项目"
+    java_config_library_owner:
+      project_name: Owner
+      project_description: "Java 应用配置管理项目"
   endorsement:
     title: "开源已经成为世界主流"
     Kim_Crayton:
