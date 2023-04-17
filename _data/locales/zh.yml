@@ -91,15 +91,15 @@ zh:
       description: "磨刀不误砍柴工。"
   paion_open_source_projects:
     title: "Paion 开源项目"
+    knowledge-graph-spec:
+      project_name: "知识图谱数据标准"
+      project_description: "标准化知识图谱应用开发"
     Messier_61:
       project_name: "Messier 61"
       project_description: "知识图谱 Wiki 前端框架"
     fili:
       project_name: "Fili"
       project_description: "基于 Apache Druid 的流式大数据 REST & GraphQL 存储与访问服务框架"
-    graphql-java-page:
-      project_name: GraphQL Java 中文文档
-      project_description: "学习如何将最新的 GraphQL API 技术融入到 Java 后端开发中"
     knowledge-graph-science:
       project_name: 知识图谱科学
       project_description: "知识图谱技术创新沙盒项目"
