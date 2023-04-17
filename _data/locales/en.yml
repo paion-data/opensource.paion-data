@@ -91,15 +91,15 @@ en:
       description: "Spend time now to save time later."
   paion_open_source_projects:
     title: "Paion's Open Source Projects"
+    knowledge-graph-spec:
+      project_name: "Knowledge Graph Specification"
+      project_description: "A standard that describes the world in a novel and inspiring way"
     Messier_61:
       project_name: "Messier 61"
       project_description: "Knowledge Graph Based Wiki Framework"
     fili:
       project_name: "Fili"
       project_description: "Easily make RESTful web services for time series ingesting & reporting with Big Data analytics engine Druid"
-    graphql-java-page:
-      project_name: GraphQL Java Documentation
-      project_description: "Learn how to integrate GraphQL into Java Development"
     knowledge-graph-science:
       project_name: Knowledge Graph Science
       project_description: "A sandbox for Knowledge Graph Initiatives"
