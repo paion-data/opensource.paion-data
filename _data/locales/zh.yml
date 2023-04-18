@@ -97,6 +97,9 @@ zh:
     Messier_61:
       project_name: "Messier 61"
       project_description: "知识图谱 Wiki 前端框架"
+    aristotle:
+      project_name: "Aristotle"
+      project_description: "GraphQL 知识图谱 Web 服务框架"
     fili:
       project_name: "Fili"
       project_description: "基于 Apache Druid 的流式大数据 REST & GraphQL 存储与访问服务框架"
