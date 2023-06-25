@@ -168,3 +168,28 @@ img.pquote-avatar {
   @extend .badge-basic;
   background-color: #028BFF;
 }
+
+// https://www.w3schools.com/howto/howto_css_two_columns.asp
+
+.tao-page {
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.wider-column {
+  width: 70%;
+}
+
+.narrower-column {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
