@@ -7,17 +7,14 @@ layout: default
 {% assign lang_dir = page.lang | prepend: "/" %}
 {% endif %}
 
-<div class="bg-gray mb-6 border-bottom jumbotron px-3">
+<div class="bg-gray mb-6 border-bottom jumbotron px-3" style="background-image: url('{{ site.baseurl }}/assets/images/tao-of-paion-data-bg.webp');">
   <div class="container-lg px-3">
     <div class="d-md-flex flex-wrap flex-items-center">
-      <div class="col-7 col-sm-5 mx-auto mb-4 text-center text-md-left">
-        <img alt="best practices" src="{{ site.baseurl }}/assets/images/best-practices.svg" class="img-responsive">
-      </div>
       <div class="col-md-7 pl-md-6 text-center text-md-left">
-        <h1 class="alt-h1 mb-2">
+        <h1 class="alt-h1 mb-2" style="color:white;">
           {{ t.maintainers.title }}
         </h1>
-        <p class="alt-lead text-gray mb-md-5">
+        <p class="alt-lead text-gray mb-md-5" style="color:white;">
           {{ t.maintainers.description }}
         </p>
       </div>
@@ -25,134 +22,259 @@ layout: default
   </div>
 </div>
 
-<div class="container-lg clearfix mx-auto gutter-spacious py-md-6 text-center">
-  <h2 class="alt-h2">
-    {{ t.maintainers.involve.title }}
-  </h2>
-  <p class="alt-lead text-gray col-md-8 mx-auto mb-6">
-    {{ t.maintainers.involve.description }}
-  </p>
-  <div class="mb-6 col-md-6 float-md-left">
-    <img alt="reduce workload" src="{{ site.baseurl }}/assets/images/reduce-workload.svg" class="img-responsive mb-3" height="100px">
-    <h3 class="alt-h3 mb-2">
-      {{ t.maintainers.involve.workload.title }}
-    </h3>
-    <p class="text-gray">
-      {{ t.maintainers.involve.workload.description }}
-    </p>
-  </div>
-  <div class="mb-6 col-md-6 float-md-left">
-    <img alt="promote work" src="{{ site.baseurl }}/assets/images/promote-work.svg" class="img-responsive mb-3" height="100px">
-    <h3 class="alt-h3 mb-2">
-      {{ t.maintainers.involve.promote.title }}
-    </h3>
-    <p class="text-gray">
-      {{ t.maintainers.involve.promote.description }}
-    </p>
-  </div>
-</div>
-
-<div class="py-6 px-3 text-center border-top border-bottom bg-gray-light">
-  <div class="container-lg clearfix mx-auto gutter-spacious py-md-6 text-center">
-    <h2 class="alt-h2">
-      {{ t.maintainers.growing.title }}
-    </h2>
-    <p class="alt-lead text-gray col-md-8 mx-auto mb-6">
-      {{ t.maintainers.growing.description }}
-    </p>
-    <div class="mb-6 col-md-6 float-md-left">
-      <img alt="document everything" src="{{ site.baseurl }}/assets/images/document-everything.svg" class="img-responsive mb-3" height="100px">
-      <h3 class="alt-h3 mb-2">
-        {{ t.maintainers.growing.document.title }}
-      </h3>
-      <p class="text-gray">
-        {{ t.maintainers.growing.document.description }}
+<div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+  <div class="tao-page row">
+    <div class="tao-page column wider-column">
+      <h1 style="float: left;">
+        Workflows, not technologies
+      </h1>
+    
+      <p class="text-gray" style="float: left; margin-top: 30px;">
+        The Paion Data approach is to focus on the end goal and workflow, rather than the underlying technologies.
+        Software and hardware will evolve and improve, and it is our goal to make adoption of new tooling simple, while
+        still providing the most streamlined user experience possible. Product design starts with an envisioned workflow
+        to achieve a set goal. We then identify existing tools that simplify the workflow. If a sufficient tool does not
+        exist, we step in to build it. This leads to a fundamentally technology-agnostic view — we will use the best
+        technology available to solve the problem. As technologies evolve and better tooling emerges, the ideal workflow
+        is just updated to leverage those technologies. Technologies change, end goals stay the same.
       </p>
     </div>
-    <div class="mb-6 col-md-6 float-md-left">
-      <img alt="get help" src="{{ site.baseurl }}/assets/images/get-help.svg" class="img-responsive mb-3" height="100px">
-      <h3 class="alt-h3 mb-2">
-        {{ t.maintainers.growing.help.title }}
-      </h3>
-      <p class="text-gray">
-        {{ t.maintainers.growing.help.description }}
-      </p>
+    <div class="tao-page column narrower-column">
+      <img
+        alt="workflows"
+        src="{{ site.baseurl }}/assets/images/workflows-image.webp"
+        height="200px"
+        style="float: right;"
+      >
     </div>
   </div>
 </div>
 
-<div class="container-lg clearfix mx-auto gutter-spacious py-md-6 text-center">
-  <h2 class="alt-h2 mt-4">
-    {{ t.maintainers.workflow.title }}
-  </h2>
-  <p class="alt-lead text-gray col-md-8 mx-auto mb-6">
-    {{ t.maintainers.workflow.description }}
-  </p>
-  <div class="mb-6 col-md-6 float-md-left">
-    <img alt="set boundaries" src="{{ site.baseurl }}/assets/images/set-boundaries.svg" class="img-responsive mb-3" height="100px">
-    <h3 class="alt-h3 mb-2">
-      {{ t.maintainers.workflow.boundaries.title }}
-    </h3>
-    <p class="text-gray">
-      {{ t.maintainers.workflow.boundaries.description }}
-    </p>
-  </div>
-  <div class="mb-6 col-md-6 float-md-left">
-    <img alt="automation" src="{{ site.baseurl }}/assets/images/automation.svg" class="img-responsive mb-3" height="100px">
-    <h3 class="alt-h3 mb-2">
-      {{ t.maintainers.workflow.automation.title }}
-    </h3>
-    <p class="text-gray">
-      {{ t.maintainers.workflow.automation.description }}
-    </p>
-  </div>
-</div>
-
-<div class="py-6 text-center border-top bg-gray-light">
-  <div class="container-md pt-3">
-    <h2 class="alt-h2 text-center">
-      {{ t.maintainers.visitor.title }}
-    </h2>
-
-    <p class="text-gray alt-lead">
-      {{ t.maintainers.visitor.description }}
-    </p>
+<div class="py-6 px-3 border-top border-bottom bg-gray-light">
+  <div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+    <div class="tao-page column narrower-column">
+      <img
+        alt="Error loading smc-image.webp"
+        src="{{ site.baseurl }}/assets/images/smc.webp"
+        height="200px"
+        style="float: left;"
+      >
+    </div>
+    <div class="tao-page row">
+      <div class="tao-page column wider-column">
+        <h1 style="float: left;">
+          Simple, Modular, Composable
+        </h1>
+      
+        <p class="text-gray" style="float: left; margin-top: 30px;">
+          The Unix philosophy is widely known for preaching the virtues of software that is simple, modular and
+          composable. This approach prefers many smaller components with well defined scopes that can be used together.
+          The alternative approach is monolithic, in which a single tool has a nebulous scope that expands to encompass
+          new features and capabilities. We like to think of the components as blocks that are functional on their own,
+          and can be combined in new and innovative ways.
+        </p>
+  
+        <p class="text-gray" style="float: left; margin-top: 15px;">
+          The simple, modular, composable approach allows us to build products at a higher level of abstraction. Rather
+          than solving the holistic problem, we break it down into constituent parts, and solve those. We build the best
+          possible solution for the scope of each problem, and then combine the blocks to form a solid, full solution.
+        </p>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="border-top py-5">
-  <div class="container-lg">
-    <h2 class="alt-h2 mt-6 text-center">
-      {{ t.endorsement.title }}
-    </h2>
-    <div class="mt-3 pb-6">
-      <div class="d-flex flex-wrap flex-items-stretch gutter">
-        <div class="col-md-6">
-          <aside class="pquote height-full">
-            <img src="https://avatars.githubusercontent.com/Rich-Harris?s=180" class="pquote-avatar" alt="avatar">
-            {{ t.endorsement.Rich_Harris.message }}
-            <p markdown="1" class="pquote-credit">
-              &mdash;
-              {{ t.endorsement.Rich_Harris.name }}
-              (<a href="https://github.com/Rich-Harris">@Rich-Harris</a>)
-              <br>
-              {{ t.endorsement.Rich_Harris.title }}
-            </p>
-          </aside>
-        </div>
-        <div class="col-md-6">
-          <aside class="pquote height-full">
-            <img src="https://avatars.githubusercontent.com/brettcannon?s=180" class="pquote-avatar" alt="avatar">
-            {{ t.endorsement.Brett_Cannon.message }}
-            <p markdown="1" class="pquote-credit">
-              &mdash;
-              {{ t.endorsement.Brett_Cannon.name }}
-              (<a href="https://github.com/brettcannon">@brettcannon</a>)
-              <br>
-              {{ t.endorsement.Brett_Cannon.title }}
-            </p>
-          </aside>
-        </div>
+<div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+  <div class="tao-page row">
+    <div class="tao-page column wider-column">
+      <h1 style="float: left;">
+        Communicating Sequential Processes
+      </h1>
+    
+      <p class="text-gray" style="float: left; margin-top: 30px;">
+        Given our belief in simple, modular, composable software, we have several tenets for combining those pieces into
+        a connected system. Communicating Sequential Processes (CSP) is a model of computation wherein autonomous
+        processes connected via a network are able to communicate. We believe that the CSP approach is necessary for
+        managing complexity and building robust scalable systems in a Service Oriented Architecture. Each service should
+        be treated as an individual process that then communicates with other services via an API.
+      </p>
+
+      <p class="text-gray" style="float: left; margin-top: 15px;">
+        CSP represents the best known way to write software and organize services together to form a system. Nature
+        itself provides the best examples; even the human body is a system of interconnected services - respiratory,
+        cardiovascular, nervous, immune, etc.
+      </p>
+    </div>
+    <div class="tao-page column narrower-column">
+      <img
+        alt="workflows"
+        src="{{ site.baseurl }}/assets/images/csp.webp"
+        height="200px"
+        style="float: right;"
+      >
+    </div>
+  </div>
+</div>
+
+<div class="py-6 px-3 border-top border-bottom bg-gray-light">
+  <div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+    <div class="tao-page column narrower-column">
+      <img
+        alt="Error loading smc-image.webp"
+        src="{{ site.baseurl }}/assets/images/immut.webp"
+        height="200px"
+        style="float: left;"
+      >
+    </div>
+    <div class="tao-page row">
+      <div class="tao-page column wider-column">
+        <h1 style="float: left;">
+          Immutability
+        </h1>
+      
+        <p class="text-gray" style="float: left; margin-top: 30px;">
+          Immutability is the inability to be changed. This is a concept that can apply at many levels. The most
+          familiar implementation of immutability is version control systems; once code is committed, that commit is
+          forever fixed. Version control systems, such as git, enjoy widespread use because they offer tremendous
+          benefits. Code becomes versionable, allowing rollback and roll forwards. You can inspect and write code
+          atomically. Using versions enables auditing and creates a clear history of how the current state was reached.
+          When something breaks, the origin of the error can be determined using the version history.
+        </p>
+  
+        <p class="text-gray" style="float: left; margin-top: 15px;">
+          The concept of immutability can be extended to many aspects of infrastructure - application source,
+          application versions, and server state. We believe that using immutable infrastructure leads to more robust
+          systems that are simpler to operate, debug, version and visualize.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+  <div class="tao-page row">
+    <div class="tao-page column wider-column">
+      <h1 style="float: left;">
+        Versioning through Codification
+      </h1>
+    
+      <p class="text-gray" style="float: left; margin-top: 30px;">
+        Codification is the belief that all processes should be written as code, stored, and versioned. Operations teams
+        have historically relied on oral tradition to pass along the knowledge of how to build, upgrade and triage
+        infrastructure. But information was easily lost or hidden from the people who needed it most. Codification of
+        critical knowledge promotes information sharing and prevents data loss, as any changes to process are
+        automatically stored and versioned.
+      </p>
+
+      <p class="text-gray" style="float: left; margin-top: 15px;">
+        Paion Data products are all designed to follow the codification of knowledge paradigm. Any changes a user makes
+        are versioned and stored to keep a clean history of process.
+      </p>
+    </div>
+    <div class="tao-page column narrower-column">
+      <img
+        alt="workflows"
+        src="{{ site.baseurl }}/assets/images/vtc.webp"
+        height="200px"
+        style="float: right;"
+      >
+    </div>
+  </div>
+</div>
+
+<div class="py-6 px-3 border-top border-bottom bg-gray-light">
+  <div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+    <div class="tao-page column narrower-column">
+      <img
+        alt="Error loading smc-image.webp"
+        src="{{ site.baseurl }}/assets/images/atc.webp"
+        height="300px"
+        style="float: left;"
+      >
+    </div>
+    <div class="tao-page row">
+      <div class="tao-page column wider-column">
+        <h1 style="float: left;">
+          Automation through Codification
+        </h1>
+      
+        <p class="text-gray" style="float: left; margin-top: 30px;">
+          System administration typically requires an operator to manually make changes to infrastructure, making the
+          position's responsibilities difficult to scale. The scale of infrastructure under management is forever
+          increasing, and manual system administration techniques have struggled to match this new scale. Automation to manage more systems with less overhead is the only option.
+        </p>
+  
+        <p class="text-gray" style="float: left; margin-top: 15px;">
+          While there are many approaches to automation, we promote codification. Codification allows for knowledge to
+          be executed by machines, but still readable by operators. Automated tooling allows operators to increase their
+          productivity, move quicker, and reduce human error. Machines can automatically detect, triage and resolve
+          issues.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+  <div class="tao-page row">
+    <div class="tao-page column wider-column">
+      <h1 style="float: left;">
+        Resilient Systems
+      </h1>
+    
+      <p class="text-gray" style="float: left; margin-top: 30px;">
+        Resilient systems are built to withstand unexpected inputs and outputs. To accomplish this, the system must
+        have a desired state, a method to collect information on the current state, and a mechanism to automatically
+        adjust the current state to return to the desired state.
+      </p>
+
+      <p class="text-gray" style="float: left; margin-top: 15px;">
+        We believe that applying this sort of systems rigor to infrastructure is critical to achieve the highest levels
+        of reliability. Paion Data products will always recognize a desired state through codified knowledge. They will
+        collect real-time information through functionally independent components. And they will provide the tooling to
+        self-heal and auto-recover.
+      </p>
+    </div>
+    <div class="tao-page column narrower-column">
+      <img
+        alt="workflows"
+        src="{{ site.baseurl }}/assets/images/rs.webp"
+        height="200px"
+        style="float: right;"
+      >
+    </div>
+  </div>
+</div>
+
+<div class="py-6 px-3 border-top border-bottom bg-gray-light">
+  <div class="container-lg clearfix mx-auto gutter-spacious py-md-6">
+    <div class="tao-page column narrower-column">
+      <img
+        alt="Error loading smc-image.webp"
+        src="{{ site.baseurl }}/assets/images/prag.webp"
+        height="200px"
+        style="float: left;"
+      >
+    </div>
+    <div class="tao-page row">
+      <div class="tao-page column wider-column">
+        <h1 style="float: left;">
+          Pragmatism
+        </h1>
+      
+        <p class="text-gray" style="float: left; margin-top: 30px;">
+          We strongly believe in the value of pragmatism when approaching any problem. Many of the principles we believe
+          in like immutability, codification, automation, and CSP are ideals which we aspire towards and not
+          requirements that we dogmatically impose. There are many situations in which the practical solution requires
+          reevaluating our ideals.
+        </p>
+  
+        <p class="text-gray" style="float: left; margin-top: 15px;">
+          Pragmatism allows us to assess new ideas, approaches, and technologies and how they may be adopted to improve
+          Paion Data's best practices. It would be a mistake to view this as a compromise of first principles, but
+          rather open-mindedness and humility to accept that we may be wrong. The ability to adapt is critical to
+          innovation and one we take pride in.
+        </p>
       </div>
     </div>
   </div>

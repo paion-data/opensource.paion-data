@@ -57,23 +57,17 @@ en:
         title: "Make it a habit"
         description: "We create clear, internal policies so employees can easily and consistently contribute to open source."
   maintainers:
-    title: "We build the best-quality Open Source Software"
-    description: "Everyday, we think about perfecting our software in every aspects so that contributors can learn from working on our projects."
+    title: "The Tao of Paion Data"
+    description: "The Tao of Paion Data is the foundation that guides our vision, roadmap, and product design. As you evaluate using or contributing to Paion Data's products, it may be valuable to understand the motivations and intentions for our work."
     involve:
-      title: "IT as an end in herself is Quality"
-      description: "Open Source is the force to spread the notion and accomplish it"
-      workload:
-        title: "Binding to Standards is our Core"
-        description: 'It is our religion that only standards lead to scales. A common-ground environment keeps everyone on the same track.'
-      promote:
-        title: "Promote our work"
-        description: 'We take advantages of social media, blog posts, and website to <a href="https://paion-data.github.io/opensource.guide/finding-users/#help-people-find-and-follow-your-project">help people find and follow our project</a>.'
+      title: "Workflows, not technologies"
+      description: "The Paion Data approach is to focus on the end goal and workflow, rather than the underlying technologies. Software and hardware will evolve and improve, and it is our goal to make adoption of new tooling simple, while still providing the most streamlined user experience possible. Product design starts with an envisioned workflow to achieve a set goal. We then identify existing tools that simplify the workflow. If a sufficient tool does not exist, we step in to build it. This leads to a fundamentally technology-agnostic view — we will use the best technology available to solve the problem. As technologies evolve and better tooling emerges, the ideal workflow is just updated to leverage those technologies. Technologies change, end goals stay the same."
     growing:
       title: "We believe software is not about technology, it's about people"
       description: "Everybody was new once. Ease someone else's first-time contribution jitters."
       document:
-        title: "We document everything"
-        description: "<a href='http://opensourcesurvey.org/2017/'>GitHub's 2017 Open Source Survey</a> showed incomplete or confusing documentation is the biggest problem for open source users. We ensure <a href='https://paion-data.github.io/opensource.guide/best-practices/#documenting-your-processes'>documenting our processes</a> for how to contribute to our project."
+        title: "Communicating Sequential Processes"
+        description: "Given our belief in simple, modular, composable software, we have several tenets for combining those pieces into a connected system. Communicating Sequential Processes (CSP) is a model of computation wherein autonomous processes connected via a network are able to communicate. We believe that the CSP approach is necessary for managing complexity and building robust scalable systems in a Service Oriented Architecture. Each service should be treated as an individual process that then communicates with other services via an API. CSP represents the best known way to write software and organize services together to form a system. Nature itself provides the best examples; even the human body is a system of interconnected services — respiratory, cardiovascular, nervous, immune, etc."
       help:
         title: "Welcome help"
         description: 'We are always looking out for promising potential contributors or maintainers to <a href="https://paion-data.github.io/opensource.guide/building-community/#share-ownership-of-your-project"> share ownership of our project.</a> We welcome first-time contributors in particular.'
