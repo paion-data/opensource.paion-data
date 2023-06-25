@@ -154,6 +154,11 @@ img.pquote-avatar {
   background-color: #29E9F2;
 }
 
+.badge-bi {
+  @extend .badge-basic;
+  background-color: #2A7FE5;
+}
+
 .badge-graphql {
   @extend .badge-basic;
   background-color: #EB0195;

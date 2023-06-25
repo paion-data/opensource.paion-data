@@ -94,9 +94,9 @@ en:
     aristotle:
       project_name: "Aristotle"
       project_description: "Knowledge Graph as a GraphQL Service"
-    fili:
-      project_name: "Fili"
-      project_description: "Easily make RESTful web services for time series ingesting & reporting with Big Data analytics engine Druid"
+    umd:
+      project_name: "UMD"
+      project_description: "Unified Metrics Datamart"
     knowledge-graph-science:
       project_name: Knowledge Graph Science
       project_description: "A sandbox for Knowledge Graph Initiatives"
