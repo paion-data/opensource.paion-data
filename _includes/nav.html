@@ -32,23 +32,4 @@
   <a class="ml-4" href="https://youtube.com/playlist?list=PL0lo9MOBetEFmtstItnKlhJJVmMghxc0P">
     {{ t.YouTube }}
   </a>
-
-  {% if page.lang and site.data.locales.size > 1 %}
-  <span class="d-inline-block">
-    <span class="p-3">
-      <select id="language" class="form-select">
-        {% assign locales = site.data.locales | sort %}
-        {% for locale in locales %}
-        {% assign lang = locale[0] %}
-        {% assign locale_name = locale[1][lang].locale_name %}
-        {% if page.lang == lang %}
-        <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
-        {% else %}
-        <option value="{{ lang }}">{{ locale_name }}</option>
-        {% endif %}
-        {% endfor %}
-      </select>
-    </span>
-  </span>
-  {% endif %}
 </nav>
