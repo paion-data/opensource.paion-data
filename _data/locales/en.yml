@@ -88,9 +88,9 @@ en:
     knowledge-graph-spec:
       project_name: "Knowledge Graph Specification"
       project_description: "A standard that describes the world in a novel and inspiring way"
-    Messier_61:
-      project_name: "Messier 61"
-      project_description: "Knowledge Graph Based Wiki Framework"
+    nexusgraph:
+      project_name: "Nexus Graph"
+      project_description: "Personal Knowledge Graph Framework"
     prometheus:
       project_name: "Prometheus"
       project_description: "Theresa (Machine Learning) API Caching Service"
