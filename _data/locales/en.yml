@@ -91,9 +91,9 @@ en:
     Messier_61:
       project_name: "Messier 61"
       project_description: "Knowledge Graph Based Wiki Framework"
-    aristotle:
-      project_name: "Aristotle"
-      project_description: "Knowledge Graph as a GraphQL Service"
+    prometheus:
+      project_name: "Prometheus"
+      project_description: "Theresa (Machine Learning) API Caching Service"
     umd:
       project_name: "UMD"
       project_description: "Unified Metrics Datamart"
